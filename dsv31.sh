@@ -54,6 +54,7 @@ megatron sft \
 --attention_backend flash \
 --loss_scale default \
 --mtp_num_layers 1 \
+--mtp_loss_scaling_factor 0.1 \
 --bf16 true \
 --model {} \
 --load_safetensors true \
